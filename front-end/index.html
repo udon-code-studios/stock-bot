@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Stock Bot</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script defer type="text/javascript" src="scripts/retrieve_data.js"></script>
+  <script defer type="text/javascript" src="scripts/render_chart.js"></script>
+</head>
+
+<body>
+  <h1>Update</h1>
+  <form id="form">
+    <label>Symbol <input name="symbol" type="text"></label>
+    <label>Date <input name="date" type="date"></label>
+    <button type="submit">Submit</button>
+  </form>
+  <h1>Info</h1>
+  <p id="log"></p>
+  <div id="chart"></div>
+</body>
+
+</html>
