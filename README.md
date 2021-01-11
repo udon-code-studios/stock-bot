@@ -12,6 +12,6 @@ A historical and live day-trading bot with a front end to display various stock 
 5. Interface the bot with a real trading platform to allow it to trade on the live market.
 
 ### Language/Design Plans
-- front end will either be built in pure html/css/js or Angular or Vue.js
+- front end will either be built in pure html/css/js or as a node project using Angular or Vue.js
 - back end will either be a Node.js server written in TypeScript or a server written in Go
     - a database may be used to store stock data to be served to the website and trained on by the machine learning algorithm
