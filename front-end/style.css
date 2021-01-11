@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    font-family: "Open Sans";
+}
+
+.header {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+    font-weight: bold;
+}
+
+.pad {
+    display: block;
+    padding: 5px;
+}
